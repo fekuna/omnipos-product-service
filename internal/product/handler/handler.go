@@ -8,7 +8,7 @@ import (
 	"github.com/fekuna/omnipos-product-service/internal/model"
 	"github.com/fekuna/omnipos-product-service/internal/product"
 	"github.com/fekuna/omnipos-product-service/internal/product/dto"
-	productv1 "github.com/fekuna/omnipos-proto/proto/product/v1"
+	productv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/product/v1"
 	"go.uber.org/zap"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -18,7 +18,7 @@ import (
 	"github.com/fekuna/omnipos-pkg/middleware"
 	"github.com/fekuna/omnipos-pkg/search"
 	"github.com/fekuna/omnipos-product-service/config"
-	productv1 "github.com/fekuna/omnipos-proto/proto/product/v1"
+	productv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/product/v1"
 
 	catH "github.com/fekuna/omnipos-product-service/internal/category/handler"
 	catRepoPkg "github.com/fekuna/omnipos-product-service/internal/category/repository"
